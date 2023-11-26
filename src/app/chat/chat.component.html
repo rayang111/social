@@ -1,0 +1,4 @@
+<p>chat works!</p>
+<div *ngFor="let message of chatHistory">{{ message }}</div>
+<input [(ngModel)]="userInput" />
+<button (click)="sendMessage()">Envoyer</button>
